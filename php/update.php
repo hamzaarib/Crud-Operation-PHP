@@ -1,0 +1,15 @@
+<?php
+    include("function.php");
+    update_users(
+        $_POST['id_to_update'],
+        $_POST['usernameSendUp'],
+        $_POST['prenomSendUp'],
+        $_POST['nomSendUp'],
+        $_POST['telSendUp'],
+        $_POST['motdepasseSendUp'],
+        $_POST['statusSendUp'],
+        $_POST['genderSendUp'],
+        $_POST['countrySendUp'],
+        $_POST['citySendUp'],
+    );
+?>

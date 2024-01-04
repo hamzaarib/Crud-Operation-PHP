@@ -1,0 +1,13 @@
+<?php
+    include("function.php");
+    insert_popup($_POST['usernameSend'], 
+        $_POST['prenomSend'],
+        $_POST['nomSend'], 
+        $_POST['telSend'],
+        $_POST['motdepasseSend'],
+        $_POST['statusSend'],
+        $_POST['genderSend'],
+        $_POST['countrySend'],
+        $_POST['citySend']
+    );
+?>
